@@ -1,0 +1,18 @@
+body {
+    background-color: gray;
+    color: cornsilk;
+
+}
+
+label {
+    display:block;
+    margin: 5px 0;
+}
+
+h1 {
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+}
