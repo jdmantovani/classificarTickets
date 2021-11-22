@@ -12,7 +12,7 @@
     </div>
 
     <div>
-        <label for="id_ticket">ID Ticket</label>
+        <label for="id_ticket">ID do Ticket</label>
         <input type="text" name="id_ticket">
     </div>
 
