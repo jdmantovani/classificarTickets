@@ -17,7 +17,6 @@ class CreatePostsTable extends Migration
             $table->id();
             $table->string('titulo');
             $table->text('conteudo');
-            $table->integer('id_ticket');
             $table->timestamps();
         });
     }

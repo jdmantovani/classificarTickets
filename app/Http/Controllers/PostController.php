@@ -21,6 +21,7 @@ class PostController extends Controller
 
         $post-> titulo = $request->get('titulo');
         $post-> conteudo = $request->get('conteudo');
+        $post-> id_ticket = $request->get('id_ticket');
 
 
         if ($post->save()) {

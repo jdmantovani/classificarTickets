@@ -7,8 +7,13 @@
 <form action="{{ route('post_insert') }}" method="POST">
 
     <div>
-        <label for="título">ID Ticket</label>
+        <label for="titulo">Título</label>
         <input type="text" name="titulo">
+    </div>
+
+    <div>
+        <label for="id_ticket">ID Ticket</label>
+        <input type="text" name="id_ticket">
     </div>
 
     <div>
